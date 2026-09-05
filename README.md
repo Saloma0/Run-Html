@@ -17,7 +17,7 @@ O usuário pode escrever seu código dentro de uma área de texto e, ao clicar n
 # 🛠️ Tecnologias utilizadas
 # HTML5
 # JavaScript
-#📂 Estrutura do projeto
+# 📂 Estrutura do projeto
 Teste-seu-codigo-HTML/
 ├── index.html
 └── README.md

@@ -1,32 +1,38 @@
-Teste seu código HTML
+# 🧪 Teste seu Código HTML
 
-Este projeto é uma página HTML simples que permite ao usuário escrever e testar código HTML diretamente no navegador.
+Um projeto simples desenvolvido em HTML e JavaScript que permite escrever, editar e testar páginas HTML diretamente no navegador.
 
-A página possui uma área de texto (textarea) onde o usuário pode inserir seu código HTML e JavaScript. Ao clicar no botão "Testar sua página", o código digitado é executado na própria página.
+# 📌 Sobre o projeto
 
-📋 Funcionalidades
-✏️ Área para escrever código HTML.
-💻 Suporte para código JavaScript dentro da página.
-▶️ Botão para executar o código digitado.
-🌐 Execução diretamente no navegador.
-🎨 Interface simples utilizando HTML.
-🛠️ Tecnologias utilizadas
-HTML5 — estrutura da página.
-JavaScript — responsável por executar o código informado pelo usuário.
-📂 Estrutura do projeto
+Este projeto funciona como um pequeno editor e executor de código HTML.
 
-O projeto pode ser composto por um único arquivo:
+O usuário pode escrever seu código dentro de uma área de texto e, ao clicar no botão "Testar sua página", o navegador interpreta e executa o código informado.
 
-/
+# 🚀 Funcionalidades
+# 📝 Editor de código HTML através de um textarea
+# ⚡ Execução do código diretamente no navegador
+# 💻 Suporte para JavaScript dentro do HTML
+# 🎨 Interface simples e intuitiva
+# 🌐 Não necessita de servidor ou instalação de dependências
+# 🛠️ Tecnologias utilizadas
+# HTML5
+# JavaScript
+#📂 Estrutura do projeto
+Teste-seu-codigo-HTML/
 ├── index.html
 └── README.md
 
-🚀 Como executar
-Baixe ou clone este projeto.
-Abra o arquivo index.html em um navegador.
-Digite ou altere o código dentro da caixa de texto.
-Clique no botão "Testar sua página".
-O código informado será carregado na página.
+# ▶️ Como executar
+Clone o repositório:
+git clone https://github.com/Saloma0/Run-Html
+
+Entre na pasta do projeto:
+cd Run-Html
+
+Abra o arquivo index.html no navegador.
+
+Não é necessário instalar nenhuma dependência.
+
 💡 Exemplo
 
 Você pode testar o seguinte código:
@@ -44,27 +50,35 @@ Você pode testar o seguinte código:
 </html>
 
 
-Ao clicar em "Testar sua página", o navegador exibirá o conteúdo e executará o JavaScript presente no código.
+Depois, clique no botão "Testar sua página" para executar o código.
 
-⚙️ Como funciona
+# ⚙️ Funcionamento
 
-O botão utiliza o evento onclick:
+O botão utiliza o seguinte código JavaScript:
 
 document.write(fonte.value);
 
 
-Nesse comando:
+O processo funciona da seguinte maneira:
 
-fonte representa o textarea onde o código foi digitado.
-fonte.value obtém o conteúdo escrito pelo usuário.
-document.write() escreve esse conteúdo no documento atual, substituindo a página existente.
-⚠️ Observação
+O usuário escreve o código no textarea.
+fonte.value obtém o código digitado.
+document.write() escreve o conteúdo no documento.
+O navegador interpreta e executa o HTML e o JavaScript.
+# ⚠️ Observação
 
-Este projeto utiliza document.write(), que é uma abordagem simples e adequada para fins de estudo. Em aplicações reais, recomenda-se utilizar métodos mais modernos e seguros para manipulação do DOM, como innerHTML, createElement() e appendChild().
+Este projeto foi desenvolvido principalmente para fins educacionais, demonstrando uma forma simples de executar código HTML e JavaScript no navegador.
 
-Além disso, como o código digitado pelo usuário é executado diretamente pelo navegador, não é recomendado utilizar esta implementação para executar código de terceiros ou conteúdo não confiável.
+O uso de document.write() não é recomendado para aplicações modernas. Em projetos maiores, é preferível utilizar métodos de manipulação do DOM, como:
+
+innerHTML
+createElement()
+appendChild()
 
 
-📄 Licença
+Atenção: não execute código de fontes desconhecidas ou não confiáveis, pois o JavaScript inserido pode ser executado diretamente pelo navegador.
 
-Este projeto pode ser utilizado para fins de estudo e aprendizado de HTML e JavaScript.
+
+# 📄 Licença
+
+Este projeto está disponível para fins de estudo e aprendizado.
